@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=robotboard'
+      - 'POSTGRES_PASSWORD=berkay'
+      - 'POSTGRES_USER=berkay'
+    ports:
+      - '5432:5432'
