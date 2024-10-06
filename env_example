@@ -1,0 +1,5 @@
+Postgres_URL=jdbc:postgresql://localhost:5432/test
+Postgres_User=myuser
+Postgres_Password=secret
+Github_Client=your_client_id
+Github_Secret=your_client_secret
